@@ -65,7 +65,7 @@ nyaya_connect/
 
 1. **Clone or download the project**
    ```bash
-   cd C:\Users\ARSENAL\CascadeProjects\nyaya_connect
+   git clone https://github.com/VatsalRaina01/nyconnect.git
    ```
 
 2. **Install dependencies**
