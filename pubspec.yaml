@@ -1,0 +1,35 @@
+name: nyaya_connect
+description: A digital legal aid platform connecting citizens with legal services
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.0.5
+  shared_preferences: ^2.2.2
+  smooth_page_indicator: ^1.2.0+3
+  table_calendar: ^3.1.2
+  file_picker: ^8.0.5
+  open_filex: ^4.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/icon/logo.png"   # ✅ use your logo file
